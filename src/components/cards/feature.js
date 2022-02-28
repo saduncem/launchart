@@ -26,13 +26,13 @@ const styles = {
       mr: ['30px'],
     },
     img :{
-      maxWidth:'90px'
+      maxWidth:'40%'
     },
     h3: {
-      fontSize: '18px',
+      fontSize: '14px',
       lineHeight: 1.28,
       color: 'heading',
-      marginBottom: '20px',
+      marginBottom: '5px',
     },
     p: {
       fontSize: 16,

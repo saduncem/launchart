@@ -12,8 +12,12 @@ export default [
     label: 'Past',
   },
   {
-    path: 'services',
-    label: 'Launchpad',
+    path: 'Projects',
+    label: 'For Projects',
+  },
+  {
+    path: 'Projects',
+    label: 'For investors ',
   },
   {
     path: '',

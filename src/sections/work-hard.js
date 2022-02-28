@@ -5,61 +5,55 @@ import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import workHard from 'assets/images/work-hard.png';
 import emoji from 'assets/images/icons/emoji.png';
-import check from 'assets/images/icons/check-circle.png';
+
+
+import icon1 from 'assets/images/icons/iconr1.png';
+import icon2 from 'assets/images/icons/iconr3.png';
+import icon3 from 'assets/images/icons/icon4.png';
+import Feature from 'components/cards/feature';
 
 const data = [
   {
     id: 1,
-    label: 'Medical and vision',
+    icon: icon1,
+    path: '#!',
+    title: 'KYC and Doxxed',
+    description: ``,
   },
   {
     id: 2,
-    label: 'Life insurance',
+    icon: icon2,
+    path: '#!',
+    title: 'Safe and Secure Minting',
+    description: ``,
   },
   {
     id: 3,
-    label: '400(k) savings',
+    icon: icon3,
+    path: '#!',
+    title: 'Fast and stable system infrastructure',
+    description: ``,
   },
-  {
-    id: 4,
-    label: 'HSAs and FSAs',
-  },
-  {
-    id: 5,
-    label: 'Commuter benefits',
-  },
-  {
-    id: 6,
-    label: '529 college savings',
-  },
+  
 ];
 
 const WorkHard = () => {
   return (
-    <Box as="section" variant="section.workHard">
+    <Box as="section" variant="section.workHard" >
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.rightContent}>
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Don’t work hard, be smart &amp; work smartly. Take a relax sit"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="For investors"
+              description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
             />
-            <Box sx={styles.features}>
-              {data?.map(({ id, label }) => (
-                <Flex key={id} as="span" sx={{ alignItems: 'flex-start' }}>
-                  <Image src={check} alt="" />
-                  <Text as="span">{label}</Text>
-                </Flex>
-              ))}
-            </Box>
-            <Box sx={styles.learnMore}>
-              <LearnMore label="Explore more" path="#!" />
-            </Box>
           </Box>
           <Box sx={styles.illustration}>
-            <Image src={workHard} alt="workHard" />
+           {data?.map((item) => (
+            <Feature className="feature-item" key={item.id} data={item} />
+          ))}
           </Box>
         </Box>
       </Container>
@@ -74,7 +68,7 @@ const styles = {
     gap: [0, 0, 0, 0, 10, 30],
     display: ['flex', null, null, null, 'grid'],
     flexDirection: ['column-reverse', null, null, 'column', 'row'],
-    gridTemplateColumns: ['0.9fr 1.1fr'],
+    gridTemplateColumns: ['0.6fr 1.1fr'],
     alignItems: 'center',
   },
   heading: {
@@ -115,13 +109,13 @@ const styles = {
     textAlign: [null, null, null, 'center', 'left'],
   },
   illustration: {
-    mb: ['50px', '50px', 0],
-    mt: [0, 0, 0, '50px', 0],
+    mb: ['10px', '10px', 0],
+    mt: [0, 0, 0, 0, 0],
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     img: {
-      maxWidth: ['100%', null, null, '80%', '100%'],
+      maxWidth: ['30%', null, null, '30%', '40%'],
     },
   },
 };

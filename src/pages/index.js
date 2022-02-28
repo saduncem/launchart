@@ -5,8 +5,10 @@ import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import Services from 'sections/services';
-import UltimateFeatures from 'sections/ultimate-features';
+import HappyCustomer from 'sections/happy-customer.js';
 import Blog from 'sections/blog';
+import WorkHard from 'sections/work-hard';
+import UltimateFeatures from 'sections/ultimate-features';
 
 export default function IndexPage() {
   return (
@@ -18,8 +20,9 @@ export default function IndexPage() {
         />
         <Banner />
         <Services />
-        {/* <WorkHard /> */}
         <UltimateFeatures />
+        <HappyCustomer/>
+        <WorkHard />
         <Blog />
        
       </Layout>

@@ -105,8 +105,8 @@ export default {
       pb: [7, null, null, null, null, 8],
     },
     happyCustomer: {
-      pt: [6, 6, 6, 6, 7, 7],
-      pb: [6, 6, 6, 0, 7, 7],
+      pt: [6, 6, 6, 6, 7, 17],
+      pb: [6, 6, 6, 0, 7, 37],
     },
     blog: {
       pt: [6, null, null, 8, 7, 6, 7],
