@@ -24,16 +24,16 @@ export const menuItems = [
       },
     ],
   },
-  {
-    id: 4,
-    title: '',
-    items: [
-      {
-        path: '#!',
-        label: 'Past',
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: '',
+  //   items: [
+  //     {
+  //       path: '#!',
+  //       label: 'Past',
+  //     },
+  //   ],
+  // },
   {
     id: 5,
     title: '',
