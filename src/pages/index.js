@@ -19,8 +19,8 @@ export default function IndexPage() {
           description="All Projects in Launchart have to Doxx and KYC themselves. We will not launch unknown projects."
         />
         <Banner />
-        <Services />
-        <UltimateFeatures />
+        {/* <Services />
+        <UltimateFeatures /> */}
         <HappyCustomer/>
         <WorkHard />
         <Blog />

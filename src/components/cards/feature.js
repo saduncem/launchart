@@ -26,7 +26,7 @@ const styles = {
       mr: ['30px'],
     },
     img :{
-      maxWidth:'40%'
+      maxWidth:'35%'
     },
     h3: {
       fontSize: '14px',
