@@ -53,7 +53,7 @@ const data = [
 ];
 const HappyCustomer = () => {
   return (
-    <Box as="section" variant="section.happyCustomer" id="Projects">
+    <Box as="section" variant="section.happyCustomer">
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>

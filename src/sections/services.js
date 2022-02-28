@@ -53,7 +53,7 @@ const data = [
 
 const Services = () => {
   return (
-    <Box as="section" id="services" variant="section.features">
+    <Box as="section" id="services" variant="section.features"  id="Projects">
       <Container>
         <SectionHeading
           sx={styles.heading}

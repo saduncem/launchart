@@ -35,7 +35,7 @@ const data = [
 
 const UltimateFeatures = () => {
   return (
-    <Box as="section" id="features" variant="section.ultimateFeatures">
+    <Box as="section"  variant="section.ultimateFeatures" id="investors">
       <Container>
         <SectionHeading
           sx={styles.heading}

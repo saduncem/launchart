@@ -16,7 +16,7 @@ export default [
     label: 'For Projects',
   },
   {
-    path: 'Projects',
+    path: 'investors',
     label: 'For investors ',
   },
   {
