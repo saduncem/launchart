@@ -75,7 +75,7 @@ export default Services;
 
 const styles = {
   heading: {
-    marginBottom: [40],
+    marginBottom: [20],
     paddingTop:[20,10],
     maxWidth: ['none', null, null, 565, null, 'none'],
     h2: {
@@ -86,7 +86,7 @@ const styles = {
     P: {
       fontSize: ['16px', '16px', '16px', '16px', '14px', '16px'],
       maxWidth: [710],
-      m: ['40px auto 50px'],
+      m: ['20px auto 10px'],
       color:'rgba(52, 61, 72, 0.8)',
       fontWeight:'600'
     },
@@ -121,7 +121,7 @@ const styles = {
         mb: ['15px', '15px', '20px', '15px'],
       },
       p: {
-        fontSize: ['14px', '14px', '16px', '16px', '14px', '16px'],
+        fontSize: ['14px', '14px', '16px', '10px', '14px', '14px'],
       },
     },
   },
