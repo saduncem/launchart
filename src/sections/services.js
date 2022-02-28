@@ -9,7 +9,7 @@ import marketing from 'assets/images/icons/iconr2.png';
 import allon from 'assets/images/icons/iconr4.png';
 import community from 'assets/images/icons/iconr6.png';
 import roadmap from 'assets/images/icons/icon6.png';
-import branding from 'assets/images/icons/iconr8.png';
+import branding from 'assets/images/icons/branding.svg';
 import UltimateFeatures from './ultimate-features';
 
 const data = [
