@@ -17,7 +17,7 @@ export default [
   },
   {
     path: 'investors',
-    label: 'For investors ',
+    label: 'For Investors ',
   },
   {
     path: '',
